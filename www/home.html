@@ -1,0 +1,30 @@
+<ons-page id="home.html">
+  <ons-toolbar style="background-color: #1B75BB;">
+    <div class="center" style="text-align: center; color: white;
+    font-family: 'Teko', sans-serif; font-size:200%;">Pokemon Identifier</div>
+  </ons-toolbar>
+
+  <div style="text-align: center; margin-top:20px">
+    <p>Enter Pokemon Name or Number</p>
+    <p>
+      <ons-input id="pokemonname" modifier="underbar" placeholder="Enter name or number" float></ons-input>
+    </p>
+    <p>
+      <ons-button onclick="searchPokemon()">Search</ons-button>
+    </p>
+    <p>
+      <ons-button onclick="clearInput()">Clear</ons-button>
+    </p>
+  </div>
+
+  <div style="text-align: center;" id="result">
+    <p style="margin-top: 30px;">
+      <ons-input id="pokemoninfo" type="text" placeholder="Pokemon Information"></ons-input>
+    </p>
+    <p>
+      <img src="" id="pokemonimage" style="width: 75%;" />
+    </p>
+  </div>
+
+
+</ons-page>
