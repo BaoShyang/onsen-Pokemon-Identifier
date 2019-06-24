@@ -1,14 +1,4 @@
-# A Blank PhoneGap App
+# Onsen-Pokemon Identifier
 
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
+Assignment 1 for HCUC MD2214 Interactive Media II course.
 
